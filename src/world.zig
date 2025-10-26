@@ -14,7 +14,7 @@ pub const World = struct{
     rotation_speeds: ArrayList(f32),    // the "intent" to rotate
     collision_radii: ArrayList(f32),
     shoot_cooldowns: ArrayList(f32),
-    lifetimes: ArrayList(f32),
+    lifetimes: ArrayList(?f32),
     active: ArrayList(bool),
     colors: ArrayList(rl.Color),
     input: InputState,
@@ -32,7 +32,7 @@ pub const World = struct{
             .rotation_speeds = ArrayList(f32).init(allocator),
             .collision_radii = ArrayList(f32).init(allocator),
             .shoot_cooldowns = ArrayList(f32).init(allocator),
-            .lifetimes = ArrayList(f32).init(allocator),
+            .lifetimes = ArrayList(?f32).init(allocator),
             .active = ArrayList(bool).init(allocator),
             .colors = ArrayList(rl.Color).init(allocator),
             .input = InputState{},
@@ -59,7 +59,7 @@ pub const World = struct{
         rotation: f32,
         rotation_speed: f32,
         shoot_cooldown: f32,
-        lifetime: f32,
+        lifetime: ?f32,
         color: rl.Color,
     ) !void {
         try self.positions.append(position);
@@ -103,16 +103,16 @@ pub const World = struct{
         }
     }
     pub fn swapEntity(self: *World, first: usize, second: usize) void{
-        std.mem.swap(rl.Vector2, self.positions.items[first], self.positions.items[second]);
-        std.mem.swap(rl.Vector2, self.velocities.items[first], self.velocities.items[second]);
-        std.mem.swap(EntityType, self.entityTypes.items[first], self.entityTypes.items[second]);
-        std.mem.swap(f32, self.rotations.items[first], self.rotations.items[second]);
-        std.mem.swap(f32, self.rotation_speeds.items[first], self.rotation_speeds.items[second]);
-        std.mem.swap(f32, self.collision_radii.items[first], self.collision_radii.items[second]);
-        std.mem.swap(f32, self.shoot_cooldowns.items[first], self.shoot_cooldowns.items[second]);
-        std.mem.swap(f32, self.lifetimes.items[first], self.lifetimes.items[second]);
-        std.mem.swap(bool, self.active.items[first], self.active.items[second]);
-        std.mem.swap(rl.Color, self.colors.items[first], self.colors.items[second]);
+        std.mem.swap(rl.Vector2, &self.positions.items[first], &self.positions.items[second]);
+        std.mem.swap(rl.Vector2, &self.velocities.items[first], &self.velocities.items[second]);
+        std.mem.swap(EntityType, &self.entityTypes.items[first], &self.entityTypes.items[second]);
+        std.mem.swap(f32, &self.rotations.items[first], &self.rotations.items[second]);
+        std.mem.swap(f32, &self.rotation_speeds.items[first], &self.rotation_speeds.items[second]);
+        std.mem.swap(f32, &self.collision_radii.items[first], &self.collision_radii.items[second]);
+        std.mem.swap(f32, &self.shoot_cooldowns.items[first], &self.shoot_cooldowns.items[second]);
+        std.mem.swap(?f32, &self.lifetimes.items[first], &self.lifetimes.items[second]);
+        std.mem.swap(bool, &self.active.items[first], &self.active.items[second]);
+        std.mem.swap(rl.Color, &self.colors.items[first], &self.colors.items[second]);
     }
 
     pub fn entityCount(self: *const World) usize {

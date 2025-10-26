@@ -1,5 +1,5 @@
 0
-1178 11990147 1761079067874888714 f99c962bae0570afd6e589e78d0953d3 0 src/main.zig
+1322 11990147 1761481109032110105 cdb30c05e8e3080b46050a16b42e1dc5 0 src/main.zig
 755 11990148 1760733849127331131 2bba894099517c5964b8ab4cda17b74e 0 src/root.zig
 179336 11522787 1760436310217755589 1c95ce9ae87f25ceea29eab28b60b34b 3 p/raylib_zig-5.6.0-dev-KE8REGNJBQDSjjyCmf4ATVQtk_OaBpY0B7kBxwSOPEGZ/lib/raylib.zig
 21711 11476404 1760218099000000000 cbecfefc0e8b7a334434f82786fed82a 1 ubsan_rt.zig
@@ -9,7 +9,6 @@
 339263 288952 1745040475000000000 d189fbfd48317c9cf2703d32d0aa21e3 0 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
 857461 295872 1746094493000000000 735df2f1b124e015a5e2d5f907d0ceae 0 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AppKit.framework/AppKit.tbd
 99344 292554 1745033968000000000 0eef9f5f8ed68d6622b67143098de544 0 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework/IOKit.tbd
-11131 11476403 1760218096000000000 bddbe18244bb1048b567652dd07a1a4d 1 compiler_rt.zig
 8794 11475955 1760218099000000000 814bab2a283ae4e1584ab879d3d3fdac 1 std/std.zig
 2525 11476276 1760218098000000000 71e0dabdb301ba10f8ca420941767e70 1 std/BitStack.zig
 100976 11475954 1760218098000000000 0a290f7a4e7980e2cb3168e0ee41a7aa 1 std/Build.zig
@@ -80,6 +79,7 @@
 26592 11475957 1760218098000000000 f7a9c643622eccaa4f7e0cdb81410dbc 1 std/zip.zig
 1242 11476224 1760218099000000000 c5e5cebc2cfc9353dc65aa5193442b60 1 std/zon.zig
 28254 11476057 1760218099000000000 3bbf14794d7bb9e94bcfbebda19b419f 1 std/start.zig
+1322 11990147 1761481109032110105 cdb30c05e8e3080b46050a16b42e1dc5 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/main.zig
 5929 11475785 1760218098000000000 a75e2588e1a73369810b6ba7657e4bfd 1 std/crypto/tlcsprng.zig
 59813 11476197 1760218099000000000 ced10461059da9a354c5794022c57602 1 std/Build/Cache.zig
 36920 11476198 1760218099000000000 c6627bb7223d9b0452ac0498a59dcc7c 1 std/Build/Step.zig
@@ -244,6 +244,7 @@
 8049 11476079 1760218098000000000 cd6c38f86fa0a1bd7ddaa85a0e7f94f7 1 std/heap/memory_pool.zig
 70485 11476087 1760218098000000000 b3a88cfb072a349ef48462583ce37bc4 1 std/http/Client.zig
 31360 11476085 1760218098000000000 abd6ae4080522f73e4745e5efce346dc 1 std/http/Server.zig
+11131 11476403 1760218096000000000 bddbe18244bb1048b567652dd07a1a4d 1 compiler_rt.zig
 13015 11476089 1760218098000000000 4c7e2ad894ad12f141066550c9bb326a 1 std/http/HeadParser.zig
 3791 11476086 1760218098000000000 61420280e3c9986a74a687031fdcf831 1 std/http/ChunkParser.zig
 3108 11476088 1760218098000000000 149ac2b5413f4e7bdf793b3740a63558 1 std/http/HeaderIterator.zig
@@ -835,12 +836,12 @@
 419 11476164 1760218099000000000 ed7dfc04a5d0c4f0853edb5414ce981e 1 std/os/linux/bpf/btf_ext.zig
 24293 11476163 1760218099000000000 0c7d3ee9ea8e698a843ee6039fd161c4 1 std/os/linux/bpf/helpers.zig
 2972 11475724 1760218098000000000 8c37c40098d399e3b36a078ce1d4e3a1 1 std/crypto/codecs/asn1/der/ArrayListReverse.zig
-1178 11990147 1761079067874888714 f99c962bae0570afd6e589e78d0953d3 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/main.zig
-5127 12036601 1761037400680987532 a9c6d4349d7576f63552d26f342c89a9 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/world.zig
+5151 12036601 1761481331484994737 ae9f54c42ecc2e820e2d20bb4a77a222 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/world.zig
 1064 12036594 1761051813989493760 88a71a833956e5a67575f28b54baa6be 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/systems/physics.zig
 2263 12037722 1761079050375322505 d8bf141b46ba1a7a9e9a4520c40dd61c 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/systems/input.zig
 2148 12320464 1761113762357362043 9f5c1e3740fc6dc0330af87457654e92 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/systems/render.zig
-2128 12036611 1761113738007839045 68367917891afc86aec05153a010da3b 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/components.zig
+2128 12036611 1761480280097334259 569f4a8f17afbccb1fa8b59edbc36a6d 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/components.zig
+317 12037711 1761481510326789132 4e111b4e23d2070db17f6ec4aee0daaa 0 /Users/sf/Programming/zig/asteroids_dod_allman/src/systems/lifetime.zig
 49260 11522785 1760436310216414811 ee6af5299dac2bf5b3976efd728171f6 3 p/raylib_zig-5.6.0-dev-KE8REGNJBQDSjjyCmf4ATVQtk_OaBpY0B7kBxwSOPEGZ/lib/raylib-ext.zig
 35489 11522793 1760436310219224490 219cff204aaaec2386ef8f74bb454e7a 3 p/raylib_zig-5.6.0-dev-KE8REGNJBQDSjjyCmf4ATVQtk_OaBpY0B7kBxwSOPEGZ/lib/rlgl.zig
 15698 11522790 1760436310218292291 9590377244575e0f63d8c22d5fedce77 3 p/raylib_zig-5.6.0-dev-KE8REGNJBQDSjjyCmf4ATVQtk_OaBpY0B7kBxwSOPEGZ/lib/raymath.zig

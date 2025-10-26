@@ -70,7 +70,7 @@ pub const Constants = struct{
   };
   pub const Bullet = struct{
       pub const speed = 400.0;
-      pub const lifetime = 3.0;
+      pub const lifetime = 0.5;
   };
   pub const Asteroid = struct{
       pub const rotation_speed = 10.0;
