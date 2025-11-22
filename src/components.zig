@@ -1,7 +1,6 @@
 const rl = @import("raylib");
 
 
-
 pub const EntityType = enum{
     Ship,
     Asteroid_large,
