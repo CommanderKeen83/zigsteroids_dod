@@ -6,6 +6,7 @@ pub fn update(dt: f32, gameworld: *World) void{
     update_positions(dt, gameworld);
     update_rotations(dt, gameworld);
     applyFriction(dt, gameworld);
+    wrapScreen(gameworld);
 
 }
 pub fn update_positions(dt: f32, gameworld: *World) void{
@@ -26,4 +27,9 @@ pub fn applyFriction(dt: f32, gameworld: *World) void{
         gameworld.velocities.items[ship_index] =
         rl.math.vector2Scale(gameworld.velocities.items[ship_index], friction);
     }
+}
+
+pub fn wrapScreen(gameworld: *World) void{
+    _ = gameworld;
+
 }
