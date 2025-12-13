@@ -5,7 +5,7 @@
       <list><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/Programming/zig/asteroids_dod_allman",
+  "path": "/home/sf/Programming/zigsteroids_dod_allmanual/zigsteroids_dod",
   "steps": [
     {
       "name": "install",
@@ -55,7 +55,7 @@
 }]]><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/.cache/zig/p/raylib_zig-5.6.0-dev-KE8REGNJBQDSjjyCmf4ATVQtk_OaBpY0B7kBxwSOPEGZ",
+  "path": "/home/sf/.cache/zig/p/raylib_zig-5.6.0-dev-KE8REGNJBQDSjjyCmf4ATVQtk_OaBpY0B7kBxwSOPEGZ",
   "steps": [
     {
       "name": "install",
@@ -1361,7 +1361,7 @@
 }]]><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/.cache/zig/p/raylib-5.6.0-dev-whq8uCg2ywTzCiX3VEP9RuCMXR6_VnDBmkj8GjL_p5QN",
+  "path": "/home/sf/.cache/zig/p/raylib-5.6.0-dev-whq8uCg2ywTzCiX3VEP9RuCMXR6_VnDBmkj8GjL_p5QN",
   "steps": [
     {
       "name": "install",
@@ -1384,13 +1384,13 @@
       "kind": "install_artifact"
     },
     {
-      "name": "audio_raw_stream",
-      "description": "audio_raw_stream",
+      "name": "audio_sound_multi",
+      "description": "audio_sound_multi",
       "kind": "run"
     },
     {
-      "name": "audio_stream_effects",
-      "description": "audio_stream_effects",
+      "name": "audio_raw_stream",
+      "description": "audio_raw_stream",
       "kind": "run"
     },
     {
@@ -1404,18 +1404,13 @@
       "kind": "run"
     },
     {
-      "name": "audio_sound_loading",
-      "description": "audio_sound_loading",
-      "kind": "run"
-    },
-    {
-      "name": "audio_sound_multi",
-      "description": "audio_sound_multi",
-      "kind": "run"
-    },
-    {
       "name": "audio_sound_positioning",
       "description": "audio_sound_positioning",
+      "kind": "run"
+    },
+    {
+      "name": "audio_stream_effects",
+      "description": "audio_stream_effects",
       "kind": "run"
     },
     {
@@ -1424,188 +1419,18 @@
       "kind": "run"
     },
     {
+      "name": "audio_sound_loading",
+      "description": "audio_sound_loading",
+      "kind": "run"
+    },
+    {
       "name": "core",
       "description": "All core examples",
       "kind": "install_artifact"
     },
     {
-      "name": "core_drop_files",
-      "description": "core_drop_files",
-      "kind": "run"
-    },
-    {
-      "name": "core_undo_redo",
-      "description": "core_undo_redo",
-      "kind": "run"
-    },
-    {
-      "name": "core_basic_window",
-      "description": "core_basic_window",
-      "kind": "run"
-    },
-    {
-      "name": "core_world_screen",
-      "description": "core_world_screen",
-      "kind": "run"
-    },
-    {
-      "name": "core_random_values",
-      "description": "core_random_values",
-      "kind": "run"
-    },
-    {
-      "name": "core_vr_simulator",
-      "description": "core_vr_simulator",
-      "kind": "run"
-    },
-    {
-      "name": "core_basic_screen_manager",
-      "description": "core_basic_screen_manager",
-      "kind": "run"
-    },
-    {
-      "name": "core_3d_camera_free",
-      "description": "core_3d_camera_free",
-      "kind": "run"
-    },
-    {
-      "name": "core_window_flags",
-      "description": "core_window_flags",
-      "kind": "run"
-    },
-    {
-      "name": "core_window_should_close",
-      "description": "core_window_should_close",
-      "kind": "run"
-    },
-    {
-      "name": "core_high_dpi",
-      "description": "core_high_dpi",
-      "kind": "run"
-    },
-    {
-      "name": "core_scissor_test",
-      "description": "core_scissor_test",
-      "kind": "run"
-    },
-    {
-      "name": "core_input_multitouch",
-      "description": "core_input_multitouch",
-      "kind": "run"
-    },
-    {
-      "name": "core_input_virtual_controls",
-      "description": "core_input_virtual_controls",
-      "kind": "run"
-    },
-    {
-      "name": "core_3d_camera_fps",
-      "description": "core_3d_camera_fps",
-      "kind": "run"
-    },
-    {
-      "name": "core_input_gestures_testbed",
-      "description": "core_input_gestures_testbed",
-      "kind": "run"
-    },
-    {
-      "name": "core_random_sequence",
-      "description": "core_random_sequence",
-      "kind": "run"
-    },
-    {
-      "name": "core_2d_camera_split_screen",
-      "description": "core_2d_camera_split_screen",
-      "kind": "run"
-    },
-    {
-      "name": "core_storage_values",
-      "description": "core_storage_values",
-      "kind": "run"
-    },
-    {
-      "name": "core_automation_events",
-      "description": "core_automation_events",
-      "kind": "run"
-    },
-    {
-      "name": "core_render_texture",
-      "description": "core_render_texture",
-      "kind": "run"
-    },
-    {
-      "name": "core_3d_camera_first_person",
-      "description": "core_3d_camera_first_person",
-      "kind": "run"
-    },
-    {
-      "name": "core_input_keys",
-      "description": "core_input_keys",
-      "kind": "run"
-    },
-    {
-      "name": "core_2d_camera",
-      "description": "core_2d_camera",
-      "kind": "run"
-    },
-    {
-      "name": "core_window_letterbox",
-      "description": "core_window_letterbox",
-      "kind": "run"
-    },
-    {
-      "name": "core_3d_camera_mode",
-      "description": "core_3d_camera_mode",
-      "kind": "run"
-    },
-    {
-      "name": "core_custom_logging",
-      "description": "core_custom_logging",
-      "kind": "run"
-    },
-    {
-      "name": "core_3d_camera_split_screen",
-      "description": "core_3d_camera_split_screen",
-      "kind": "run"
-    },
-    {
-      "name": "core_smooth_pixelperfect",
-      "description": "core_smooth_pixelperfect",
-      "kind": "run"
-    },
-    {
-      "name": "core_input_gestures",
-      "description": "core_input_gestures",
-      "kind": "run"
-    },
-    {
       "name": "core_input_mouse_wheel",
       "description": "core_input_mouse_wheel",
-      "kind": "run"
-    },
-    {
-      "name": "core_3d_picking",
-      "description": "core_3d_picking",
-      "kind": "run"
-    },
-    {
-      "name": "core_input_gamepad",
-      "description": "core_input_gamepad",
-      "kind": "run"
-    },
-    {
-      "name": "core_2d_camera_platformer",
-      "description": "core_2d_camera_platformer",
-      "kind": "run"
-    },
-    {
-      "name": "core_2d_camera_mouse_zoom",
-      "description": "core_2d_camera_mouse_zoom",
-      "kind": "run"
-    },
-    {
-      "name": "core_input_mouse",
-      "description": "core_input_mouse",
       "kind": "run"
     },
     {
@@ -1614,48 +1439,188 @@
       "kind": "run"
     },
     {
+      "name": "core_storage_values",
+      "description": "core_storage_values",
+      "kind": "run"
+    },
+    {
+      "name": "core_2d_camera",
+      "description": "core_2d_camera",
+      "kind": "run"
+    },
+    {
+      "name": "core_2d_camera_platformer",
+      "description": "core_2d_camera_platformer",
+      "kind": "run"
+    },
+    {
+      "name": "core_random_values",
+      "description": "core_random_values",
+      "kind": "run"
+    },
+    {
+      "name": "core_random_sequence",
+      "description": "core_random_sequence",
+      "kind": "run"
+    },
+    {
+      "name": "core_render_texture",
+      "description": "core_render_texture",
+      "kind": "run"
+    },
+    {
+      "name": "core_3d_camera_free",
+      "description": "core_3d_camera_free",
+      "kind": "run"
+    },
+    {
+      "name": "core_3d_camera_split_screen",
+      "description": "core_3d_camera_split_screen",
+      "kind": "run"
+    },
+    {
+      "name": "core_basic_window",
+      "description": "core_basic_window",
+      "kind": "run"
+    },
+    {
+      "name": "core_2d_camera_mouse_zoom",
+      "description": "core_2d_camera_mouse_zoom",
+      "kind": "run"
+    },
+    {
+      "name": "core_input_keys",
+      "description": "core_input_keys",
+      "kind": "run"
+    },
+    {
+      "name": "core_automation_events",
+      "description": "core_automation_events",
+      "kind": "run"
+    },
+    {
+      "name": "core_world_screen",
+      "description": "core_world_screen",
+      "kind": "run"
+    },
+    {
+      "name": "core_3d_camera_first_person",
+      "description": "core_3d_camera_first_person",
+      "kind": "run"
+    },
+    {
+      "name": "core_window_flags",
+      "description": "core_window_flags",
+      "kind": "run"
+    },
+    {
+      "name": "core_2d_camera_split_screen",
+      "description": "core_2d_camera_split_screen",
+      "kind": "run"
+    },
+    {
+      "name": "core_input_multitouch",
+      "description": "core_input_multitouch",
+      "kind": "run"
+    },
+    {
+      "name": "core_input_gamepad",
+      "description": "core_input_gamepad",
+      "kind": "run"
+    },
+    {
+      "name": "core_high_dpi",
+      "description": "core_high_dpi",
+      "kind": "run"
+    },
+    {
+      "name": "core_custom_logging",
+      "description": "core_custom_logging",
+      "kind": "run"
+    },
+    {
+      "name": "core_drop_files",
+      "description": "core_drop_files",
+      "kind": "run"
+    },
+    {
+      "name": "core_3d_picking",
+      "description": "core_3d_picking",
+      "kind": "run"
+    },
+    {
+      "name": "core_3d_camera_fps",
+      "description": "core_3d_camera_fps",
+      "kind": "run"
+    },
+    {
+      "name": "core_basic_screen_manager",
+      "description": "core_basic_screen_manager",
+      "kind": "run"
+    },
+    {
+      "name": "core_input_virtual_controls",
+      "description": "core_input_virtual_controls",
+      "kind": "run"
+    },
+    {
+      "name": "core_smooth_pixelperfect",
+      "description": "core_smooth_pixelperfect",
+      "kind": "run"
+    },
+    {
+      "name": "core_input_mouse",
+      "description": "core_input_mouse",
+      "kind": "run"
+    },
+    {
+      "name": "core_window_should_close",
+      "description": "core_window_should_close",
+      "kind": "run"
+    },
+    {
+      "name": "core_vr_simulator",
+      "description": "core_vr_simulator",
+      "kind": "run"
+    },
+    {
+      "name": "core_scissor_test",
+      "description": "core_scissor_test",
+      "kind": "run"
+    },
+    {
+      "name": "core_input_gestures_testbed",
+      "description": "core_input_gestures_testbed",
+      "kind": "run"
+    },
+    {
+      "name": "core_3d_camera_mode",
+      "description": "core_3d_camera_mode",
+      "kind": "run"
+    },
+    {
+      "name": "core_window_letterbox",
+      "description": "core_window_letterbox",
+      "kind": "run"
+    },
+    {
+      "name": "core_undo_redo",
+      "description": "core_undo_redo",
+      "kind": "run"
+    },
+    {
+      "name": "core_input_gestures",
+      "description": "core_input_gestures",
+      "kind": "run"
+    },
+    {
       "name": "models",
       "description": "All models examples",
       "kind": "install_artifact"
     },
     {
-      "name": "models_box_collisions",
-      "description": "models_box_collisions",
-      "kind": "run"
-    },
-    {
-      "name": "models_animation_playing",
-      "description": "models_animation_playing",
-      "kind": "run"
-    },
-    {
-      "name": "models_loading_m3d",
-      "description": "models_loading_m3d",
-      "kind": "run"
-    },
-    {
-      "name": "models_bone_socket",
-      "description": "models_bone_socket",
-      "kind": "run"
-    },
-    {
-      "name": "models_loading_gltf",
-      "description": "models_loading_gltf",
-      "kind": "run"
-    },
-    {
-      "name": "models_point_rendering",
-      "description": "models_point_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "models_geometric_shapes",
-      "description": "models_geometric_shapes",
-      "kind": "run"
-    },
-    {
-      "name": "models_mesh_picking",
-      "description": "models_mesh_picking",
+      "name": "models_skybox_rendering",
+      "description": "models_skybox_rendering",
       "kind": "run"
     },
     {
@@ -1664,13 +1629,8 @@
       "kind": "run"
     },
     {
-      "name": "models_rlgl_solar_system",
-      "description": "models_rlgl_solar_system",
-      "kind": "run"
-    },
-    {
-      "name": "models_textured_cube",
-      "description": "models_textured_cube",
+      "name": "models_orthographic_projection",
+      "description": "models_orthographic_projection",
       "kind": "run"
     },
     {
@@ -1679,38 +1639,8 @@
       "kind": "run"
     },
     {
-      "name": "models_animation_gpu_skinning",
-      "description": "models_animation_gpu_skinning",
-      "kind": "run"
-    },
-    {
-      "name": "models_waving_cubes",
-      "description": "models_waving_cubes",
-      "kind": "run"
-    },
-    {
-      "name": "models_orthographic_projection",
-      "description": "models_orthographic_projection",
-      "kind": "run"
-    },
-    {
-      "name": "models_loading",
-      "description": "models_loading",
-      "kind": "run"
-    },
-    {
       "name": "models_tesseract_view",
       "description": "models_tesseract_view",
-      "kind": "run"
-    },
-    {
-      "name": "models_skybox_rendering",
-      "description": "models_skybox_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "models_first_person_maze",
-      "description": "models_first_person_maze",
       "kind": "run"
     },
     {
@@ -1719,8 +1649,18 @@
       "kind": "run"
     },
     {
-      "name": "models_cubicmap_rendering",
-      "description": "models_cubicmap_rendering",
+      "name": "models_first_person_maze",
+      "description": "models_first_person_maze",
+      "kind": "run"
+    },
+    {
+      "name": "models_waving_cubes",
+      "description": "models_waving_cubes",
+      "kind": "run"
+    },
+    {
+      "name": "models_bone_socket",
+      "description": "models_bone_socket",
       "kind": "run"
     },
     {
@@ -1729,8 +1669,68 @@
       "kind": "run"
     },
     {
+      "name": "models_loading",
+      "description": "models_loading",
+      "kind": "run"
+    },
+    {
+      "name": "models_textured_cube",
+      "description": "models_textured_cube",
+      "kind": "run"
+    },
+    {
+      "name": "models_loading_m3d",
+      "description": "models_loading_m3d",
+      "kind": "run"
+    },
+    {
+      "name": "models_box_collisions",
+      "description": "models_box_collisions",
+      "kind": "run"
+    },
+    {
+      "name": "models_geometric_shapes",
+      "description": "models_geometric_shapes",
+      "kind": "run"
+    },
+    {
+      "name": "models_rlgl_solar_system",
+      "description": "models_rlgl_solar_system",
+      "kind": "run"
+    },
+    {
       "name": "models_mesh_generation",
       "description": "models_mesh_generation",
+      "kind": "run"
+    },
+    {
+      "name": "models_point_rendering",
+      "description": "models_point_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "models_mesh_picking",
+      "description": "models_mesh_picking",
+      "kind": "run"
+    },
+    {
+      "name": "models_cubicmap_rendering",
+      "description": "models_cubicmap_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "models_animation_gpu_skinning",
+      "description": "models_animation_gpu_skinning",
+      "kind": "run"
+    },
+    {
+      "name": "models_loading_gltf",
+      "description": "models_loading_gltf",
+      "kind": "run"
+    },
+    {
+      "name": "models_animation_playing",
+      "description": "models_animation_playing",
       "kind": "run"
     },
     {
@@ -1739,33 +1739,8 @@
       "kind": "install_artifact"
     },
     {
-      "name": "embedded_files_loading",
-      "description": "embedded_files_loading",
-      "kind": "run"
-    },
-    {
-      "name": "rlgl_standalone",
-      "description": "rlgl_standalone",
-      "kind": "run"
-    },
-    {
-      "name": "easings_testbed",
-      "description": "easings_testbed",
-      "kind": "run"
-    },
-    {
       "name": "raylib_opengl_interop",
       "description": "raylib_opengl_interop",
-      "kind": "run"
-    },
-    {
-      "name": "raymath_vector_angle",
-      "description": "raymath_vector_angle",
-      "kind": "run"
-    },
-    {
-      "name": "web_basic_window",
-      "description": "web_basic_window",
       "kind": "run"
     },
     {
@@ -1774,88 +1749,38 @@
       "kind": "run"
     },
     {
+      "name": "embedded_files_loading",
+      "description": "embedded_files_loading",
+      "kind": "run"
+    },
+    {
+      "name": "raymath_vector_angle",
+      "description": "raymath_vector_angle",
+      "kind": "run"
+    },
+    {
+      "name": "easings_testbed",
+      "description": "easings_testbed",
+      "kind": "run"
+    },
+    {
+      "name": "web_basic_window",
+      "description": "web_basic_window",
+      "kind": "run"
+    },
+    {
+      "name": "rlgl_standalone",
+      "description": "rlgl_standalone",
+      "kind": "run"
+    },
+    {
       "name": "shaders",
       "description": "All shaders examples",
       "kind": "install_artifact"
     },
     {
-      "name": "shaders_spotlight_rendering",
-      "description": "shaders_spotlight_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_normalmap_rendering",
-      "description": "shaders_normalmap_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_raymarching_rendering",
-      "description": "shaders_raymarching_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_shadowmap_rendering",
-      "description": "shaders_shadowmap_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_custom_uniform",
-      "description": "shaders_custom_uniform",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_rounded_rectangle",
-      "description": "shaders_rounded_rectangle",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_shapes_textures",
-      "description": "shaders_shapes_textures",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_mesh_instancing",
-      "description": "shaders_mesh_instancing",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_hybrid_rendering",
-      "description": "shaders_hybrid_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_palette_switch",
-      "description": "shaders_palette_switch",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_julia_set",
-      "description": "shaders_julia_set",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_depth_writing",
-      "description": "shaders_depth_writing",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_multi_sample2d",
-      "description": "shaders_multi_sample2d",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_texture_tiling",
-      "description": "shaders_texture_tiling",
-      "kind": "run"
-    },
-    {
       "name": "shaders_fog_rendering",
       "description": "shaders_fog_rendering",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_depth_rendering",
-      "description": "shaders_depth_rendering",
       "kind": "run"
     },
     {
@@ -1864,23 +1789,13 @@
       "kind": "run"
     },
     {
-      "name": "shaders_vertex_displacement",
-      "description": "shaders_vertex_displacement",
-      "kind": "run"
-    },
-    {
-      "name": "shaders_model_shader",
-      "description": "shaders_model_shader",
-      "kind": "run"
-    },
-    {
       "name": "shaders_texture_outline",
       "description": "shaders_texture_outline",
       "kind": "run"
     },
     {
-      "name": "shaders_texture_rendering",
-      "description": "shaders_texture_rendering",
+      "name": "shaders_custom_uniform",
+      "description": "shaders_custom_uniform",
       "kind": "run"
     },
     {
@@ -1889,8 +1804,43 @@
       "kind": "run"
     },
     {
+      "name": "shaders_mesh_instancing",
+      "description": "shaders_mesh_instancing",
+      "kind": "run"
+    },
+    {
       "name": "shaders_simple_mask",
       "description": "shaders_simple_mask",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_hybrid_rendering",
+      "description": "shaders_hybrid_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_shadowmap_rendering",
+      "description": "shaders_shadowmap_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_texture_rendering",
+      "description": "shaders_texture_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_depth_writing",
+      "description": "shaders_depth_writing",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_shapes_textures",
+      "description": "shaders_shapes_textures",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_raymarching_rendering",
+      "description": "shaders_raymarching_rendering",
       "kind": "run"
     },
     {
@@ -1899,8 +1849,18 @@
       "kind": "run"
     },
     {
-      "name": "shaders_basic_lighting",
-      "description": "shaders_basic_lighting",
+      "name": "shaders_texture_tiling",
+      "description": "shaders_texture_tiling",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_normalmap_rendering",
+      "description": "shaders_normalmap_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_vertex_displacement",
+      "description": "shaders_vertex_displacement",
       "kind": "run"
     },
     {
@@ -1909,8 +1869,33 @@
       "kind": "run"
     },
     {
+      "name": "shaders_rounded_rectangle",
+      "description": "shaders_rounded_rectangle",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_julia_set",
+      "description": "shaders_julia_set",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_depth_rendering",
+      "description": "shaders_depth_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_basic_lighting",
+      "description": "shaders_basic_lighting",
+      "kind": "run"
+    },
+    {
       "name": "shaders_texture_waves",
       "description": "shaders_texture_waves",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_multi_sample2d",
+      "description": "shaders_multi_sample2d",
       "kind": "run"
     },
     {
@@ -1919,8 +1904,23 @@
       "kind": "run"
     },
     {
+      "name": "shaders_spotlight_rendering",
+      "description": "shaders_spotlight_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_palette_switch",
+      "description": "shaders_palette_switch",
+      "kind": "run"
+    },
+    {
       "name": "shaders_lightmap_rendering",
       "description": "shaders_lightmap_rendering",
+      "kind": "run"
+    },
+    {
+      "name": "shaders_model_shader",
+      "description": "shaders_model_shader",
       "kind": "run"
     },
     {
@@ -1929,43 +1929,8 @@
       "kind": "install_artifact"
     },
     {
-      "name": "shapes_top_down_lights",
-      "description": "shapes_top_down_lights",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_easings_ball",
-      "description": "shapes_easings_ball",
-      "kind": "run"
-    },
-    {
       "name": "shapes_easings_box",
       "description": "shapes_easings_box",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_digital_clock",
-      "description": "shapes_digital_clock",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_lines_bezier",
-      "description": "shapes_lines_bezier",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_easings_rectangles",
-      "description": "shapes_easings_rectangles",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_bouncing_ball",
-      "description": "shapes_bouncing_ball",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_following_eyes",
-      "description": "shapes_following_eyes",
       "kind": "run"
     },
     {
@@ -1974,38 +1939,13 @@
       "kind": "run"
     },
     {
-      "name": "shapes_rounded_rectangle_drawing",
-      "description": "shapes_rounded_rectangle_drawing",
+      "name": "shapes_digital_clock",
+      "description": "shapes_digital_clock",
       "kind": "run"
     },
     {
-      "name": "shapes_double_pendulum",
-      "description": "shapes_double_pendulum",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_circle_sector_drawing",
-      "description": "shapes_circle_sector_drawing",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_basic_shapes",
-      "description": "shapes_basic_shapes",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_ring_drawing",
-      "description": "shapes_ring_drawing",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_collision_area",
-      "description": "shapes_collision_area",
-      "kind": "run"
-    },
-    {
-      "name": "shapes_logo_raylib",
-      "description": "shapes_logo_raylib",
+      "name": "shapes_following_eyes",
+      "description": "shapes_following_eyes",
       "kind": "run"
     },
     {
@@ -2014,13 +1954,18 @@
       "kind": "run"
     },
     {
-      "name": "shapes_splines_drawing",
-      "description": "shapes_splines_drawing",
+      "name": "shapes_logo_raylib",
+      "description": "shapes_logo_raylib",
       "kind": "run"
     },
     {
-      "name": "shapes_rectangle_scaling",
-      "description": "shapes_rectangle_scaling",
+      "name": "shapes_double_pendulum",
+      "description": "shapes_double_pendulum",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_collision_area",
+      "description": "shapes_collision_area",
       "kind": "run"
     },
     {
@@ -2029,9 +1974,74 @@
       "kind": "run"
     },
     {
+      "name": "shapes_easings_ball",
+      "description": "shapes_easings_ball",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_top_down_lights",
+      "description": "shapes_top_down_lights",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_bouncing_ball",
+      "description": "shapes_bouncing_ball",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_circle_sector_drawing",
+      "description": "shapes_circle_sector_drawing",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_easings_rectangles",
+      "description": "shapes_easings_rectangles",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_ring_drawing",
+      "description": "shapes_ring_drawing",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_basic_shapes",
+      "description": "shapes_basic_shapes",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_rounded_rectangle_drawing",
+      "description": "shapes_rounded_rectangle_drawing",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_splines_drawing",
+      "description": "shapes_splines_drawing",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_lines_bezier",
+      "description": "shapes_lines_bezier",
+      "kind": "run"
+    },
+    {
+      "name": "shapes_rectangle_scaling",
+      "description": "shapes_rectangle_scaling",
+      "kind": "run"
+    },
+    {
       "name": "text",
       "description": "All text examples",
       "kind": "install_artifact"
+    },
+    {
+      "name": "text_3d_drawing",
+      "description": "text_3d_drawing",
+      "kind": "run"
+    },
+    {
+      "name": "text_inline_styling",
+      "description": "text_inline_styling",
+      "kind": "run"
     },
     {
       "name": "text_input_box",
@@ -2044,43 +2054,8 @@
       "kind": "run"
     },
     {
-      "name": "text_unicode_ranges",
-      "description": "text_unicode_ranges",
-      "kind": "run"
-    },
-    {
-      "name": "text_sprite_fonts",
-      "description": "text_sprite_fonts",
-      "kind": "run"
-    },
-    {
       "name": "text_writing_anim",
       "description": "text_writing_anim",
-      "kind": "run"
-    },
-    {
-      "name": "text_font_sdf",
-      "description": "text_font_sdf",
-      "kind": "run"
-    },
-    {
-      "name": "text_format_text",
-      "description": "text_format_text",
-      "kind": "run"
-    },
-    {
-      "name": "text_font_loading",
-      "description": "text_font_loading",
-      "kind": "run"
-    },
-    {
-      "name": "text_3d_drawing",
-      "description": "text_3d_drawing",
-      "kind": "run"
-    },
-    {
-      "name": "text_font_filters",
-      "description": "text_font_filters",
       "kind": "run"
     },
     {
@@ -2089,13 +2064,38 @@
       "kind": "run"
     },
     {
+      "name": "text_font_filters",
+      "description": "text_font_filters",
+      "kind": "run"
+    },
+    {
+      "name": "text_format_text",
+      "description": "text_format_text",
+      "kind": "run"
+    },
+    {
+      "name": "text_sprite_fonts",
+      "description": "text_sprite_fonts",
+      "kind": "run"
+    },
+    {
       "name": "text_codepoints_loading",
       "description": "text_codepoints_loading",
       "kind": "run"
     },
     {
-      "name": "text_inline_styling",
-      "description": "text_inline_styling",
+      "name": "text_font_sdf",
+      "description": "text_font_sdf",
+      "kind": "run"
+    },
+    {
+      "name": "text_font_loading",
+      "description": "text_font_loading",
+      "kind": "run"
+    },
+    {
+      "name": "text_unicode_ranges",
+      "description": "text_unicode_ranges",
       "kind": "run"
     },
     {
@@ -2109,43 +2109,18 @@
       "kind": "install_artifact"
     },
     {
-      "name": "textures_sprite_animation",
-      "description": "textures_sprite_animation",
+      "name": "textures_blend_modes",
+      "description": "textures_blend_modes",
       "kind": "run"
     },
     {
-      "name": "textures_particles_blending",
-      "description": "textures_particles_blending",
+      "name": "textures_tiled_drawing",
+      "description": "textures_tiled_drawing",
       "kind": "run"
     },
     {
-      "name": "textures_image_channel",
-      "description": "textures_image_channel",
-      "kind": "run"
-    },
-    {
-      "name": "textures_image_drawing",
-      "description": "textures_image_drawing",
-      "kind": "run"
-    },
-    {
-      "name": "textures_fog_of_war",
-      "description": "textures_fog_of_war",
-      "kind": "run"
-    },
-    {
-      "name": "textures_raw_data",
-      "description": "textures_raw_data",
-      "kind": "run"
-    },
-    {
-      "name": "textures_image_kernel",
-      "description": "textures_image_kernel",
-      "kind": "run"
-    },
-    {
-      "name": "textures_textured_curve",
-      "description": "textures_textured_curve",
+      "name": "textures_polygon_drawing",
+      "description": "textures_polygon_drawing",
       "kind": "run"
     },
     {
@@ -2154,8 +2129,58 @@
       "kind": "run"
     },
     {
-      "name": "textures_sprite_button",
-      "description": "textures_sprite_button",
+      "name": "textures_image_generation",
+      "description": "textures_image_generation",
+      "kind": "run"
+    },
+    {
+      "name": "textures_logo_raylib",
+      "description": "textures_logo_raylib",
+      "kind": "run"
+    },
+    {
+      "name": "textures_image_loading",
+      "description": "textures_image_loading",
+      "kind": "run"
+    },
+    {
+      "name": "textures_srcrec_dstrec",
+      "description": "textures_srcrec_dstrec",
+      "kind": "run"
+    },
+    {
+      "name": "textures_sprite_animation",
+      "description": "textures_sprite_animation",
+      "kind": "run"
+    },
+    {
+      "name": "textures_mouse_painting",
+      "description": "textures_mouse_painting",
+      "kind": "run"
+    },
+    {
+      "name": "textures_npatch_drawing",
+      "description": "textures_npatch_drawing",
+      "kind": "run"
+    },
+    {
+      "name": "textures_particles_blending",
+      "description": "textures_particles_blending",
+      "kind": "run"
+    },
+    {
+      "name": "textures_fog_of_war",
+      "description": "textures_fog_of_war",
+      "kind": "run"
+    },
+    {
+      "name": "textures_to_image",
+      "description": "textures_to_image",
+      "kind": "run"
+    },
+    {
+      "name": "textures_image_drawing",
+      "description": "textures_image_drawing",
       "kind": "run"
     },
     {
@@ -2169,33 +2194,28 @@
       "kind": "run"
     },
     {
-      "name": "textures_mouse_painting",
-      "description": "textures_mouse_painting",
+      "name": "textures_raw_data",
+      "description": "textures_raw_data",
       "kind": "run"
     },
     {
-      "name": "textures_blend_modes",
-      "description": "textures_blend_modes",
+      "name": "textures_image_kernel",
+      "description": "textures_image_kernel",
       "kind": "run"
     },
     {
-      "name": "textures_to_image",
-      "description": "textures_to_image",
+      "name": "textures_background_scrolling",
+      "description": "textures_background_scrolling",
       "kind": "run"
     },
     {
-      "name": "textures_image_loading",
-      "description": "textures_image_loading",
+      "name": "textures_image_channel",
+      "description": "textures_image_channel",
       "kind": "run"
     },
     {
-      "name": "textures_logo_raylib",
-      "description": "textures_logo_raylib",
-      "kind": "run"
-    },
-    {
-      "name": "textures_gif_player",
-      "description": "textures_gif_player",
+      "name": "textures_sprite_button",
+      "description": "textures_sprite_button",
       "kind": "run"
     },
     {
@@ -2204,38 +2224,18 @@
       "kind": "run"
     },
     {
-      "name": "textures_tiled_drawing",
-      "description": "textures_tiled_drawing",
+      "name": "textures_textured_curve",
+      "description": "textures_textured_curve",
       "kind": "run"
     },
     {
-      "name": "textures_srcrec_dstrec",
-      "description": "textures_srcrec_dstrec",
-      "kind": "run"
-    },
-    {
-      "name": "textures_image_generation",
-      "description": "textures_image_generation",
-      "kind": "run"
-    },
-    {
-      "name": "textures_npatch_drawing",
-      "description": "textures_npatch_drawing",
-      "kind": "run"
-    },
-    {
-      "name": "textures_polygon_drawing",
-      "description": "textures_polygon_drawing",
+      "name": "textures_gif_player",
+      "description": "textures_gif_player",
       "kind": "run"
     },
     {
       "name": "textures_image_text",
       "description": "textures_image_text",
-      "kind": "run"
-    },
-    {
-      "name": "textures_background_scrolling",
-      "description": "textures_background_scrolling",
       "kind": "run"
     }
   ],
@@ -3083,7 +3083,7 @@
 }]]><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/.cache/zig/p/N-V-__8AABHMqAWYuRdIlflwi8gksPnlUMQBiSxAqQAAZFms",
+  "path": "/home/sf/.cache/zig/p/N-V-__8AABHMqAWYuRdIlflwi8gksPnlUMQBiSxAqQAAZFms",
   "steps": [
     {
       "name": "install",
@@ -3101,7 +3101,7 @@
 }]]><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/.cache/zig/p/N-V-__8AAJl1DwBezhYo_VE6f53mPVm00R-Fk28NPW7P14EQ",
+  "path": "/home/sf/.cache/zig/p/N-V-__8AAJl1DwBezhYo_VE6f53mPVm00R-Fk28NPW7P14EQ",
   "steps": [
     {
       "name": "install",
@@ -3119,7 +3119,7 @@
 }]]><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/.cache/zig/p/zemscripten-0.2.0-dev-sRlDqApRAACspTbAZnuNKWIzfWzSYgYkb2nWAXZ-tqqt",
+  "path": "/home/sf/.cache/zig/p/zemscripten-0.2.0-dev-sRlDqApRAACspTbAZnuNKWIzfWzSYgYkb2nWAXZ-tqqt",
   "steps": [
     {
       "name": "install",
@@ -3143,7 +3143,7 @@
 }]]><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/.cache/zig/p/N-V-__8AALUbbwDKkSH4nbf3Ml_dTWo9qbELvle5i9eQZMuo",
+  "path": "/home/sf/.cache/zig/p/N-V-__8AALUbbwDKkSH4nbf3Ml_dTWo9qbELvle5i9eQZMuo",
   "steps": [
     {
       "name": "install",
@@ -3161,7 +3161,7 @@
 }]]><![CDATA[{
   "name": null,
   "version": null,
-  "path": "/Users/sf/.cache/zig/p/zemscripten-0.2.0-dev-sRlDqFJSAAB8hgnRt5DDMKP3zLlDtMnUDwYRJVCa5lGY",
+  "path": "/home/sf/.cache/zig/p/zemscripten-0.2.0-dev-sRlDqFJSAAB8hgnRt5DDMKP3zLlDtMnUDwYRJVCa5lGY",
   "steps": [
     {
       "name": "install",
@@ -3185,5 +3185,5 @@
 }]]></list>
     </option>
   </component>
-  <component name="ZigToolchain" toolchain="3e187e08-1e0c-4b01-aeae-f8f0d8de489b" />
+  <component name="ZigToolchain" toolchain="dff26d84-271f-4490-8f71-af345f3de268" />
 </project>
